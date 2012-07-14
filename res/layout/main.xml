@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:stretchColumns="3"
+    android:layout_width="210px"
+    android:layout_height="400px"
+    android:layout_marginLeft="95px"
+    >
+    	<TextView
+    		android:textAppearance="?android:attr/textAppearanceLarge" 
+    		android:id="@+id/textView1" 
+    		android:layout_width="wrap_content" 
+    		android:text="Turn - X" 
+    		android:layout_marginLeft="70px" 
+    		android:layout_height="wrap_content">
+    	</TextView>
+    	
+    	<TableRow>
+    		<Button 
+    			android:textSize="40px" 
+    			android:layout_width="70px" 
+    			android:layout_height="70px" 
+    			android:id="@+id/zero">
+    		</Button>
+    		
+    		<Button 
+    			android:textSize="40px" 
+    			android:layout_width="70px" 
+    			android:layout_height="70px" 
+    			android:id="@+id/one">
+    		</Button>
+    		
+    		<Button 
+    			android:textSize="40px" 
+    			android:layout_width="70px" 
+    			android:layout_height="70px" 
+    			android:id="@+id/two">
+    		</Button>
+    	</TableRow>
+    	
+    	<TableRow>
+    		<Button 
+    			android:textSize="40px" 
+    			android:layout_width="70px" 
+    			android:layout_height="70px" 
+    			android:id="@+id/three">
+    		</Button>
+    		
+    		<Button 
+    			android:textSize="40px" 
+    			android:layout_width="70px" 
+    			android:layout_height="70px" 
+    			android:id="@+id/four">
+    		</Button>
+    		
+    		<Button 
+    			android:textSize="40px" 
+    			android:layout_width="70px" 
+    			android:layout_height="70px" 
+    			android:id="@+id/five">
+    		</Button>
+    	</TableRow>
+    	
+    	<TableRow>
+    		<Button 
+    			android:textSize="40px" 
+    			android:layout_width="70px" 
+    			android:layout_height="70px" 
+    			android:id="@+id/six">
+    		</Button>
+    		
+    		<Button 
+    			android:textSize="40px" 
+    			android:layout_width="70px" 
+    			android:layout_height="70px" 
+    			android:id="@+id/seven">
+    		</Button>
+    		
+    		<Button 
+    			android:textSize="40px" 
+    			android:layout_width="70px" 
+    			android:layout_height="70px" 
+    			android:id="@+id/eight">
+    		</Button>
+    	</TableRow>
+    	
+    	<LinearLayout 
+    		android:paddingTop="30px">
+    		
+    		<Button 
+    			android:text="Undo" 
+    			android:layout_width="105px" 
+    			android:id="@+id/undo" 
+    			android:layout_height="match_parent" >
+    		</Button>  		
+    		
+    		<Button 
+    			android:text="Exit" 
+    			android:layout_width="105px" 
+    			android:id="@+id/exit" 
+    			android:layout_height="match_parent">
+    		</Button>
+    	</LinearLayout>
+</TableLayout>
